@@ -2,3 +2,10 @@
 <html>
   <head>
     <title> About Rebecca Hsu </title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="animations.js"></script>
+  </head>
+  <body>
+
+  </body>
+</html>
