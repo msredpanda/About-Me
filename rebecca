@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title> About Rebecca Hsu </title>
+    <script src="animations.js"></script>
+  </head>
+  
+  <style type="text/css">
+    .jumbotron {
+      margin-top: 20px;
+      background-image: url("https://github.com/msredpanda/about-rebeccah/blob/master/galaxy.jpg?raw=true");
+      background-size: cover;
+      color: white;
+      font-family: "Optima", sans-serif;	
+    }
+    
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    box-shadow: inset 0 0 5px #eadedb; 
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #804177; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #703868; 
+}
+ 
+   </style>
+ 
+    
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1> About Rebecca Hsu </h1>
+      </div>
+    </div>
+
+  </body>
+</html>
