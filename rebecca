@@ -34,6 +34,25 @@
     background: #703868; 
 }
  
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 570px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
    </style>
  
     
@@ -43,6 +62,25 @@
         <h1> About Rebecca Hsu </h1>
       </div>
     </div>
+    
+    <h3>My Hobbies</h3>
+    
+
+<div class="row">
+  <div class="column" style="background-color:#fffcff;">
+    <h2>Flute</h2>
+    <p>I've been playing the flute since the summer of 2014 and am still currently learning. I attend flute lessons weekly, every Friday, and also join the Gradus ad Parnassum youth orchestra.</p>
+  </div>
+  <div class="column" style="background-color:#fffcff;">
+    <h2>Hip-Hop and Swimming</h2>
+    <p>Hip hop has been a different type of dance style than the ones I've done before. Before joining in hip-hop, I did ballet and tap. I quit tap early on, but started losing intrest in ballet when I found out I would need surgery for my knee if I wanted to continue. This is when I started doing hip-hop. The beats and sharper technique really help and interst me. Every Wednesday, I do hip hop with my dance school, NDS, standing for Nijikko Dance School. Swimming is also one of my favorite activites. I really enjoy the feeling of being in water and have done swimming for most of my life.</p>
+  </div>
+  <div class="column" style="background-color:#fffcff;">
+    <h2>Chinese School</h2>
+    <p>Although most people find Chinese school as a pain, I enjoy it, most of the time. Not only do I get to learn Mandarin, I get to see two of my closest friends, Anna and Kylie, and my other friends that I only get to see once a week, since they attend other neighboring schools.</p>
+  </div>
+</div>
+
 
   </body>
 </html>
