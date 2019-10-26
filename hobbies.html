@@ -13,41 +13,37 @@
  
 </head> 
    
-  <style type="text/css">
-.jumbotron {
-  margin-top: 20px;
-  background-image: url("https://github.com/msredpanda/about-rebeccah/blob/master/galaxy.jpg?raw=true");
-  background-size: cover;
-  color: white;
-   font-family: "Optima", sans-serif;	
-}
+   <style type="text/css">
+    .jumbotron {
+      margin-top: 20px;
+      background-image: url("https://github.com/msredpanda/about-rebeccah/blob/master/galaxy.jpg?raw=true");
+      background-size: cover;
+      color: white;
+      font-family: "Optima", sans-serif;	
+    }
     
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 570px;
+::-webkit-scrollbar {
+    width: 15px;
 }
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    box-shadow: inset 0 0 5px #eadedb; 
+    border-radius: 10px;
 }
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+::-webkit-scrollbar-thumb {
+    background: #804177; 
+    border-radius: 10px;
 }
-  .sidebar {
+::-webkit-scrollbar-thumb:hover {
+    background: #703868; 
+}
+.sidebar {
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  left: 1000;
   background-color: #000033;
   overflow-x: hidden;
   transition: 0.5s;
